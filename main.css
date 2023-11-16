@@ -1,0 +1,675 @@
+@font-face {
+    font-family: PPMori-Regular;
+    src: url(fonts/PPMori-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: PPMori-SemiBold;
+    src: url(fonts/PPMori-SemiBold.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Monument-Extended;
+    src: url(fonts/MonumentExtended-Ultrabold.otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Monument-Extended-Regular;
+    src: url(fonts/MonumentExtended-Regular.otf);
+
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    width: 1300px;
+    font-family: "PPMori-Regular", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #273043;
+    background-color: #F7F8FA;
+}
+
+.main-footer {
+    background-color: rgb(39, 48, 67);
+}
+
+.main-nav {
+    width: 1170px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 41px;
+    margin: 0;
+    margin-right: 435px;
+}
+
+.site-navigation {
+    font-size: 13px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.site-navigation-item {
+    margin-right: 35px;
+    font-size: 14px;
+}
+
+.site-navigation-item:last-child {
+    margin-right: 0;
+}
+
+.site-navigation-item a {
+    font-size: 13px;
+    line-height: 14px;
+    color: #163152;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.site-navigation-item a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.site-navigation-item a:active {
+    color: rgba(22, 49, 82, 0.3);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    margin-left: 80px;
+    margin-right: 0px;
+
+}
+
+.hero {
+    margin: 0 auto;
+    width: 1168px;
+    height: 577px;
+    margin-bottom: 140px;
+    position: relative;
+    color: white;
+}
+
+.hero-description,
+.hero h1,
+.hero-date,
+.hero-button-buy-ticket {
+    position: absolute;
+}
+
+.hero h1 {
+
+    bottom: -35px;
+    left: 63px;
+    text-transform: uppercase;
+    font-size: 81px;
+    font-weight: 800;
+    width: 461px;
+    line-height: 110%;
+    font-family: Monument-Extended;
+}
+
+.hero-date {
+    left: 63px;
+    top: 145px;
+    font-size: 16.5px;
+}
+
+.hero-description {
+    left: 500px;
+    bottom: 27px;
+    width: 320px;
+}
+
+.hero-button-buy-ticket {
+    width: 186px;
+    height: 59px;
+    display: inline-flex;
+    padding: 18px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    left: 915px;
+    bottom: 52px;
+    background-color: #F02D3A;
+    color: white;
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    border: none;
+
+}
+
+.about {
+    margin: 0 auto;
+    width: 1170px;
+    height: 192px;
+    text-align: justify;
+    font-family: "PPMori-Regular", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 140px;
+    position: relative;
+}
+
+.about h2 {
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    color: rgba(39, 48, 67, 0.30);
+    position: absolute;
+}
+
+.about p {
+    text-indent: 600px;
+    top: 4px;
+}
+
+.business-academy {
+    margin: 0 auto;
+    margin-top: 244px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 1168px;
+    height: 744px;
+
+}
+
+.business-academy-img2 {
+    position: absolute;
+    left: -159px;
+    top: -180px;
+}
+
+.business-academy-news,
+.business-academy-about {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(145, 151, 174);
+    height: 563px;
+    align-items: flex-end;
+
+
+}
+
+.business-academy-news {
+    width: 468px;
+    height: 563px;
+}
+
+.business-academy-about {
+    width: 670px;
+    height: 563px;
+}
+
+.business-academy-news h2,
+.business-academy-about h2 {
+    font-family: Monument-Extended;
+    font-size: 30px;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.business-academy-news h2 {
+    width: 340px;
+    margin: 46px 59px 40px 54px;
+}
+
+.business-academy-about h2 {
+    width: 457px;
+    margin: 46px 30px 40px 54px;
+}
+
+.business-academy-news h3,
+.business-academy-about h3 {
+    font-family: "PPMori-Regular", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.4;
+}
+
+.business-academy-about h3 {
+    margin-left: 59px;
+    margin-bottom: 6px;
+}
+
+.business-academy-about p {
+    width: 540px;
+    height: 81px;
+    margin-bottom: 12px;
+}
+
+.business-academy-news-date,
+.business-academy-news h3 {
+    display: inline;
+    margin-left: 59px;
+    margin-right: -25px;
+}
+
+.business-academy-text {
+    width: 339px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 6px;
+    margin-left: 59px;
+    margin-right: 71px;
+    margin-bottom: 93px;
+}
+
+.button-more {
+    padding: 14px 28px;
+    border: 1px solid rgba(145, 151, 174, 0.40);
+    background: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Monument-Extended-Regular", sans-serif;
+    margin-left: 254px;
+    margin-right: 56px;
+    margin-bottom: 84px;
+}
+
+.business-academy-button-join {
+    width: 100px;
+    height: 48px;
+    padding: 14px 28px;
+    background-color: #F02D3A;
+    color: white;
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    border: none;
+    margin-left: 514px;
+    margin-right: 56px;
+    margin-bottom: 84px;
+
+}
+
+.concept {
+    margin: 0 auto;
+    width: 1170px;
+    height: 192px;
+    text-align: justify;
+    font-family: "PPMori-Regular", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 140px;
+    position: relative;
+}
+
+.concept h2 {
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    color: rgba(39, 48, 67, 0.30);
+    position: absolute;
+}
+
+.concept p {
+    text-indent: 600px;
+    top: 4px;
+}
+
+.museum-kids-school {
+    margin: 0 auto;
+    width: 1172px;
+    height: 860px;
+}
+
+.museum-kids-school-text {
+    display: flex;
+    gap: 65px;
+}
+
+.museum-kids-school-text h2 {
+    width: 436px;
+    height: 171px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: "Monument-Extended-Regular", sans-serif;
+    margin-top: 20px;
+}
+
+.museum-kids-school-description {
+    width: 449px;
+    margin-top: 10px;
+}
+
+.museum-kids-school .button-more {
+    background-color: #F02D3A;
+    color: white;
+    margin-bottom: 0px;
+    width: 173px;
+    margin-left: 999px;
+}
+
+.contacts {
+    width: 1171px;
+    height: 483px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 140px;
+    gap: 31px;
+    justify-content: space-between;
+}
+
+.contacts-content {
+    background-color: #273043;
+    color: white;
+    width: 470px;
+    height: 483px;
+}
+
+.contacts-content h2 {
+    width: 199px;
+    font-size: 20px;
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 68px;
+    margin-top: 45px;
+}
+
+.contact-items {
+    list-style: none;
+}
+
+.contact-item-address h3,
+.contact-item-time h3,
+.contact-item-email h3 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.04px;
+    text-transform: uppercase;
+    opacity: 0.3;
+    margin-bottom: 5px;
+}
+
+.contact-item-address {
+    width: 220px;
+    height: 108px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 28px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+address {
+    font-style: normal;
+    width: 250px;
+}
+
+.contact-item-time {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 28px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+.contact-item-time p {
+    margin-top: 0px;
+}
+
+.contact-item-email {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: 28px;
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+
+.contact-item-email a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts-route-button {
+    margin-left: 28px;
+    margin-bottom: 52px;
+    width: 155px;
+    height: 46px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: #273043;
+    color: white;
+    border: 1px solid #FFF;
+}
+
+.contacts-map {
+    position: relative;
+}
+
+.contacts-map-geo {
+    position: absolute;
+    right: 312px;
+    top: 148px;
+}
+
+.donation-support {
+    margin: 0 auto;
+    width: 1172px;
+    height: 143px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    margin-bottom: 63px;
+}
+
+.donation-support p {
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    width: 838px;
+    height: 153px;
+}
+
+.support-button {
+    background-color: #F02D3A;
+    color: white;
+    margin-bottom: 0px;
+    width: 153px;
+    height: 51px;
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    border: none;
+    margin-top: 120px;
+}
+
+.main-footer {
+    width: 1300px;
+    height: 386px;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    margin-left: 20px;
+}
+
+.logo-and-social-media .logo {
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-top: 28px;
+}
+
+.join-in {
+    margin-left: 60px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.936px;
+    text-transform: uppercase;
+}
+
+.logo-and-social-media {
+    width: 140px;
+    margin-right: 63px;
+}
+
+.adress-and-opening-hours {
+    width: 330px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.adress-and-opening-hours h3 {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.adress-and-opening-hours-items {
+    list-style: none;
+}
+
+.footer-navigation-links {
+    width: 266px;
+    height: 182px;
+    margin-top: 20px;
+    margin-right: 85px;
+    line-height: 180%;
+}
+
+.footer-navigation-items {
+    list-style: none;
+}
+
+.footer-navigation-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.subscribe-block {
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 60px;
+
+}
+
+.subscribe-block p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.subscribe-block input {
+    display: block;
+    width: 300px;
+    height: 42px;
+    margin-bottom: 21px;
+}
+
+.subscribe-button {
+    width: 161px;
+    height: 48px;
+    background-color: #F02D3A;
+    color: white;
+    font-family: "Monument-Extended-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+    border: none;
+}
+
+.bottom-links {
+    margin: 0 auto;
+    width: 896px;
+    height: 15px;
+    margin-left: 205px;
+}
+
+.bottom-links-items {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.bottom-links-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.bottom-links-item:first-child {
+    margin-right: 55px;
+}
+
+.bottom-links-item:last-child {
+    margin-left: 35px;
+    margin-right: 0px;
+}
+
